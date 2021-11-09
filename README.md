@@ -1,0 +1,1 @@
+# kaniko-gradle-sample-app
