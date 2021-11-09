@@ -1,0 +1,10 @@
+domain-cache:
+  build : .
+  container_name: domain-cache
+  ports:
+   - "8080:8080"
+   - "9999:9999"
+   - "8849:8849"
+  volumes:
+    - ./build/libs/:/var/lib/jetty/webapps  
+  
